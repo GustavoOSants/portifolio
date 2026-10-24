@@ -38,6 +38,12 @@
 
 }
 
+*:focus-visible{
+    outline: .125rem solid blue;
+    outline-offset: .2rem;
+    border-radius: 3rem;
+}
+
 html {
     scroll-behavior: smooth !important;
 }
