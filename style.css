@@ -186,11 +186,19 @@ h2 span {
 }
 
 .sobre-section img{
-    width: 100%;
+    width: 30rem;
     height: 30rem;
     object-fit: cover;
     border-radius: 1.5rem;
 
+}
+
+@media (max-width:510px){
+    .sobre-section img{
+    width: 100%;
+    height: 30rem;
+
+}
 }
 
 .projetos-section p{
@@ -320,6 +328,7 @@ footer ul{
 }
 
 footer a{
+    color: #1c1c1c85;
     display: flex;
     align-items: center;
     flex-direction: row-reverse;
@@ -405,16 +414,4 @@ header h1:hover, header li:hover{
         opacity: 1;
         transform: translateY(0);
     }
-}
-
-
-
-
-
-
-
-
-
-img {
-    max-width: 100%;
 }
