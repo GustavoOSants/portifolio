@@ -158,10 +158,25 @@ h2 span {
     color: var(--cor-texto-button-primario);
 }
 
+.hero-section ul li:first-child a:hover, form button:hover, .projetos-section article a:hover{
+    background-color: var(--cor-texto-button-primario);
+    color: var(--bg-button-primario);
+    border: var(--borda-button);
+    
+    transition: 300ms;
+}
+
 .hero-section ul li:last-child a {
     background-color: var(--bg-secundario);
     border: var(--borda-button);
     color: var(--cor-texto-button-secundario)
+}
+
+.hero-section ul li:last-child a:hover{
+    background-color: var(--bg-button-primario);
+    color: var(--cor-texto-button-primario);
+    
+    transition: 300ms;
 }
 
 .sobre-section{
@@ -384,7 +399,7 @@ footer a{
     }
 }
 
-header h1:hover, header li:hover{
+header h1:hover, header li:hover, footer a:hover{
     transform: scale(1.20);
 }
 
